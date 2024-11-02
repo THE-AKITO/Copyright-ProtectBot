@@ -6,17 +6,17 @@
 "env": {
     "API_ID": {
       "description": "api id get from my.telegram.org/apps",
-      "value": "",
+      "value": "29764570",
       "required": true
     },
     "API_HASH": {
       "description": "api hash get from my.telegram.org/app",
-      "value": "",
+      "value": "7676192e491329a1b859b2184e5d7823",
       "required": true
     },
     "TOKEN": {
        "description": "create your bot in @botfather",
-       "value": "",
+       "value": "7650783032:AAG4mx6ksYnJg-bxrdMIqISRJ2XEqvm773A",
        "required": true
     }
 }

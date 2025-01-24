@@ -49,6 +49,8 @@ START_MESSAGE = """
  **Work:** I'll Delete all medias of your group in every 1 hour ➰
  
  **Process?:** Simply add me in your group and promote as admin with delete messages right!
+
+ **©️ Powered To You By @Programmer_XD**
 """
 
 BUTTON = [[InlineKeyboardButton("+ Add Me in Group +", url=f"http://t.me/{BOT_USERNAME}?startgroup=s&admin=delete_messages")]]

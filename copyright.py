@@ -42,7 +42,7 @@ DELETE_MESSAGE = [
 ]
 
 START_MESSAGE = """
-**Hello {}, I'm Anti - CopyRight Bot**
+**Hello {}, I'm Protectron-X BOT**
 
  > **I can save your groups from Copyrights 😉**
 
@@ -51,7 +51,7 @@ START_MESSAGE = """
  **Process?:** Simply add me in your group and promote as admin with delete messages right!
 """
 
-BUTTON = [[InlineKeyboardButton("+ Add me in group +", url=f"http://t.me/{BOT_USERNAME}?startgroup=s&admin=delete_messages")]]
+BUTTON = [[InlineKeyboardButton("+ Add Me in Group +", url=f"http://t.me/{BOT_USERNAME}?startgroup=s&admin=delete_messages")]]
 
 bot = Client('bot', api_id=API_ID, api_hash=API_HASH, bot_token=BOT_TOKEN)
 
@@ -202,7 +202,7 @@ def AutoDelete():
           time.sleep(1)
           hue.delete()
           GROUP_MEDIAS[i].delete()
-          gue = bot.send_message(i, text="Deleted All Media's")
+          gue = bot.send_message(i, text="**DELETING ALL MEDIA FOR COPYRIGHT PROTECTION**")
        except Exception:
           pass
     MEDIA_GROUPS.remove(i)
